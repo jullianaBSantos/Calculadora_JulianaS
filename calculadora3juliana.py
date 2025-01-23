@@ -1,3 +1,7 @@
+import os
+import time
+import operator
+
 def calculadora_v3(num1: float, num2: float, operador: str) -> float:
    
     operadores = {
