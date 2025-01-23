@@ -23,3 +23,10 @@ def calculadora(num1: float, num2: float, operador: str) -> float:
     else:
         raise ValueError(f"Operador '{operador}' não é suportado.")
     return resultado
+
+
+
+
+    
+
+
