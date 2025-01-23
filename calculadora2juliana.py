@@ -17,8 +17,13 @@ def calculadora_v2(num1: float, num2: float, operador: str) -> float:
 
     return float("nan")
 
-    def calculadora_v3(num1: float, num2: float, operador: str) -> float:
-    if operador in ['+', '-', '*', '/', '%', '^']:
-        return eval(f"{num1} {operador} {num2}")
-    else:
-        raise ValueError(f"Operador '{operador}' não é suportado.")
+# Teste
+
+print(calculadora_v2(2, 3, "**"))  # 8
+print(calculadora_v2(2, 3, "+"))  # 5
+print(calculadora_v2(2, 3, "-"))  # -1
+print(calculadora_v2(2, 3, "/"))  # 0.6666666666666666
+print(calculadora_v2(2, 3, "*"))  # 6
+
+
+    
